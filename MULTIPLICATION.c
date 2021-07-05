@@ -22,6 +22,7 @@ printf("Enter the elemnts of 2nd matrix\n");
         printf("\n");
     }
 //changed here
+//changed again
 for (i=0;i<3;i++){
         for(j=0;j<3;j++){
            c[i][j]=(a[i][k]*b[i][j])+(a[i][k+1]*b[i+1][j])+(a[i][k+2]*b[i+2][j]);
