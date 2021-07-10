@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 void section1(float);
-void section2(float);
+void section2(float);//
 void calculation();
 float velocity1,velocity2,height1,height2,pressure1,pressure2;
 int main(){
