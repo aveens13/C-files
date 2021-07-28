@@ -5,6 +5,16 @@ typedef struct
     int year,day,month;
     char monthy[10];
 }date;
+void delay(int a){
+    int add;
+    int time=a*10000000000;
+    for(int i=0;i<time;i++){
+        add*=i;
+        add++;
+        add++;
+
+    }
+}
 int main(){
     date today;
     int i,j,k,days;
@@ -83,7 +93,10 @@ int main(){
     default:
         break;
     }
-    printf("Date is %s %d %d",today.monthy,today.day,today.year);
+    delay(5);
+    printf("\t****Welcome to %d days after the present.****\n",days);
+    delay(5);
+    printf("You are on the time %s %d %d",today.monthy,today.day,today.year);
     return 0;
 
 }
