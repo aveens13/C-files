@@ -17,7 +17,7 @@ int gcdiv(int a, int b){
     i=1;
     while(i<=a && i<=b){
         if(a%i==0 && b%i==0)
-        gcd=i;
+            gcd=i;
         i++;
     }
     return gcd;

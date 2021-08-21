@@ -17,7 +17,6 @@ int main(){
                 
             }
         }
-        
     }
     printf("After Bubblesort\n");
     for(i=0;i<a[99];i++){

@@ -93,9 +93,6 @@ int main(){
     default:
         break;
     }
-    delay(5);
-    printf("\t****Welcome to %d days after the present.****\n",days);
-    delay(5);
     printf("You are on the time %s %d %d",today.monthy,today.day,today.year);
     return 0;
 

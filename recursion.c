@@ -11,7 +11,7 @@ return 1;
 
 int fact(int a){
     if (a==0)
-    return 1;
+    return 0;
     else
     return a * fact(a-1);
 }
